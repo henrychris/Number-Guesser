@@ -15,7 +15,9 @@ public class Number_Guesser
 		return answer;
     }
 
-	public void 
+	public void Guess_Prompts()
+    {
 
+    }
 
 }
