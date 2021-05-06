@@ -2,9 +2,8 @@
 
 public class Number_Guesser
 {
-	public Number_Guesser(int min, int max)
+	public Number_Guesser()
 	{
-		Answer_Generator(min, max);
 	}
 
 	public int Answer_Generator(int min, int max)
@@ -13,11 +12,6 @@ public class Number_Guesser
 		int answer = rnd.Next(min, max);
 
 		return answer;
-    }
-
-	public void Guess_Prompts()
-    {
-
     }
 
 }
